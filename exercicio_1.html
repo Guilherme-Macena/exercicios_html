@@ -1,0 +1,50 @@
+<!--Desenvolva uma página com um formulário
+de cadastro (o tema fica à sua escolha) que
+contenha todos os elementos de formulário
+apresentados (radio, select, checkbox, text,
+date, email, textarea, submit). Utilize os
+atributos:
+method=”get” action=”teste.jsp”-->
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <!--nesa parte é o cabeçalho-->
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div  class ="formulario">
+        <!--nesa parte é o corpo do site-->
+        <div class="titulo"><h1 >Formulário de reservas</h1></div>
+        <form method="post" action="teste.jsp">
+            <h2>Nome:</h2><input type="text" name="nome" class="campoDigitavel"><br>
+            <h2>Email:</h2><input type="email" name="email" class="campoDigitavel"> <br>
+            <h2>Escolha o tamanho do seu pedido:</h2>
+            <div class="tamanho">
+                <input type="radio" name="tamanho" value="grande"> Grande
+                <input type="radio" name="tamanho" value="medio"> Medio
+                <input type="radio" name="tamanho" value="pequeno"> Pequeno
+            </div>
+            <h2>Acompanhamento:</h2>
+            <select name="acompanhamento" class="acompanhamento">
+                <option>Vinagrete</option>
+                <option>Salada de couve</option>
+                <option>Sem Acompanhamento</option>
+            </select>
+            <h2>Molho de pimenta:</h2>
+            <div class="check">    
+                <input type="checkbox" name="sim" value="Sim">Sim
+                <input type="checkbox" name="nao" value="Nao">Não
+            </div>
+            <h2>Data de entrega:</h2>
+            <input type="date" name="dataentrega" class="dataentrega">
+            <h2>Obervações:</h2>
+            <textarea class="obsservacao" name="obsservacao" rows="10" cols="30"></textarea>
+            <input type="submit" class="botaoenviar">
+        </form>
+    </div>
+        
+</body>
+
+</html>
