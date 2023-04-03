@@ -14,36 +14,40 @@ method=”get” action=”teste.jsp”-->
 <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <div  class ="formulario">
+    <main  class ="formulario">
         <!--nesa parte é o corpo do site-->
-        <div class="titulo"><h1 >Formulário de reservas</h1></div>
+        <div class="titulo">
+            <h1 >Formulário de reservas</h1>
+            <p>
+                Alugue um chalé, para descanso fim de semana, seja a dois ou em família.
+            </p>
+        </div>
         <form method="post" action="teste.jsp">
             <h2>Nome:</h2><input type="text" name="nome" class="campoDigitavel"><br>
             <h2>Email:</h2><input type="email" name="email" class="campoDigitavel"> <br>
-            <h2>Escolha o tamanho do seu pedido:</h2>
+            <h2>Escolha o tamanho do seu chalé:</h2>
             <div class="tamanho">
-                <input type="radio" name="tamanho" value="grande"> Grande
-                <input type="radio" name="tamanho" value="medio"> Medio
-                <input type="radio" name="tamanho" value="pequeno"> Pequeno
+                <input type="radio" name="tamanho" value="grande"> Família
+                <input type="radio" name="tamanho" value="medio"> Casal
             </div>
-            <h2>Acompanhamento:</h2>
+            <h2>Climatização:</h2>
             <select name="acompanhamento" class="acompanhamento">
-                <option>Vinagrete</option>
-                <option>Salada de couve</option>
-                <option>Sem Acompanhamento</option>
+                <option>Lareira</option>
+                <option>Ar Condicionado</option>
+                <option>Aquecedor</option>
             </select>
-            <h2>Molho de pimenta:</h2>
+            <h2>Suiti:</h2>
             <div class="check">    
                 <input type="checkbox" name="sim" value="Sim">Sim
                 <input type="checkbox" name="nao" value="Nao">Não
             </div>
-            <h2>Data de entrega:</h2>
+            <h2>Data da Reserva:</h2>
             <input type="date" name="dataentrega" class="dataentrega">
             <h2>Obervações:</h2>
             <textarea class="obsservacao" name="obsservacao" rows="10" cols="30"></textarea>
             <input type="submit" class="botaoenviar">
         </form>
-    </div>
+    </main>
         
 </body>
 
