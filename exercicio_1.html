@@ -8,47 +8,54 @@ method=”get” action=”teste.jsp”-->
 
 <!DOCTYPE html>
 
-<html>
+<html lang="br">
+
 <head>
+    <title>Exercicio 1: Formulário</title>
     <!--nesa parte é o cabeçalho-->
-<link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
-    <main  class ="formulario">
+    <main class="formulario">
         <!--nesa parte é o corpo do site-->
         <div class="titulo">
-            <h1 >Formulário de reservas</h1>
+            <h1>Formulário de reservas</h1>
             <p>
-                Alugue um chalé, para descanso fim de semana, seja a dois ou em família.
+                Alugue um ambiente no campo, 
+                para descanso fim de semana, 
+                seja a dois ou em família.
             </p>
         </div>
-        <form method="post" action="teste.jsp">
-            <h2>Nome:</h2><input type="text" name="nome" class="campoDigitavel"><br>
-            <h2>Email:</h2><input type="email" name="email" class="campoDigitavel"> <br>
-            <h2>Escolha o tamanho do seu chalé:</h2>
-            <div class="tamanho">
-                <input type="radio" name="tamanho" value="grande"> Família
-                <input type="radio" name="tamanho" value="medio"> Casal
-            </div>
-            <h2>Climatização:</h2>
-            <select name="acompanhamento" class="acompanhamento">
+        <form method="post" action="teste.jsp" autocomplete="off">
+            <label for="nome">Nome:</label>
+                <input type="text" name="nome" class="campoDigitavel"><br>
+            <label for="email">Email:</label>
+                <input type="email" name="email" class="campoDigitavel"> <br>
+            <label for="tamanho">Escolha o seu chalé:</label>
+            <div class="tamanho" id="tamanho">
+                <input type="radio" name="tamanho" value="familia"> Família
+                <input type="radio" name="tamanho" value="casal"> Casal
+            </div><br>
+            <label for="acompanhamento">Climatização:</label>
+            <select id="acompanhamento" name="acompanhamento" class="acompanhamento">
                 <option>Lareira</option>
                 <option>Ar Condicionado</option>
                 <option>Aquecedor</option>
-            </select>
-            <h2>Suiti:</h2>
-            <div class="check">    
+            </select><br>
+            <label for="suiti">Suiti:</label>
+            <div id="suiti" class="check">
                 <input type="checkbox" name="sim" value="Sim">Sim
                 <input type="checkbox" name="nao" value="Nao">Não
             </div>
-            <h2>Data da Reserva:</h2>
-            <input type="date" name="dataentrega" class="dataentrega">
-            <h2>Obervações:</h2>
-            <textarea class="obsservacao" name="obsservacao" rows="10" cols="30"></textarea>
+            <label for="data">Data da Reserva:</label>
+            <input id="data" type="date" name="dataentrega" class="dataentrega">
+            <label for="observacao">Obervações:</label>
+            <textarea id="observacao" class="observacao" name="observacao" rows="10" cols="30"></textarea>
             <input type="submit" class="botaoenviar">
         </form>
     </main>
-        
+
 </body>
 
 </html>
