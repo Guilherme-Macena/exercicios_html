@@ -2,9 +2,9 @@
 
 
 body{
-    background: linear-gradient(45deg, #cdd9f5, #d3c0f7);
+    background: linear-gradient(45deg, #6aee80, #d3c0f7);
     background-repeat: no-repeat;
-    min-height: 98.3vh;
+    min-height: 97.8vh;
     min-width: 100vh;
     display: flex;
     align-items: center;
@@ -12,15 +12,13 @@ body{
 }
 
 label{
-    margin-left: 5px;
     font-size: 20px;
     font-family: 'Merriweather', serif;
 }
 
 .titulo {
     text-align: center;
-    margin: 10px;
-    border: 3px solid black;
+    margin: 20px;
     font-family: 'Merriweather', serif;
 }
 p{
@@ -40,26 +38,32 @@ p{
     max-width: 700px;
     min-width: 50vh;
 
-    border: 3px solid black;
-    text-align: left;
-    background-color: antiquewhite;
+    border: 3px solid purple;
+    border-radius: 10px;
+    text-align: center;
+    background:linear-gradient(45deg,#d3c0f7, #6aee80,);
 
 }
 
 .campoDigitavel {
     font-size: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
 }
 
 .tamanho {
     margin-top: 5px;
-    text-align: left;
+    margin-right: 10px;
+    text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 20px;
 }
 
 .acompanhamento{
+    border-radius: 5px;
     margin-top: 5px;
+    margin-bottom: 10px;
     margin-right: 10px;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
@@ -67,14 +71,18 @@ p{
 }
 
 .check{
+    border-radius: 5px;
+    margin-bottom: 10px;
     margin-top: 5px;
     margin-right: 10px;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.dataentrega{
+.datareserva{
+    border-radius: 5px;
     margin-top: 5px;
+    margin-bottom: 10px;
     margin-right: 10px;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
@@ -82,6 +90,8 @@ p{
 }
 
 .observacao{
+    border-radius: 5px;
+    margin-bottom: 10px;
     margin-top: 5px;
     margin-right: 10px;
     font-family: 'Times New Roman', Times, serif;
@@ -89,8 +99,10 @@ p{
 }
 
 .botaoenviar{
+    border-radius: 5px;
+    margin-right: 10px;
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     align-items: center;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;

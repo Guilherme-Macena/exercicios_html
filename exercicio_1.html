@@ -12,7 +12,7 @@ method=”get” action=”teste.jsp”-->
 
 <head>
     <title>Exercicio 1: Formulário</title>
-    <!--nesa parte é o cabeçalho-->
+    <!--nesa parte é o cabeçalho--> 
     <link rel="stylesheet" href="estilos.css">
 </head>
 
@@ -28,29 +28,29 @@ method=”get” action=”teste.jsp”-->
             </p>
         </div>
         <form method="post" action="teste.jsp" autocomplete="off">
-            <label for="nome">Nome:</label>
+            <br><label id="nome">Nome:</label>
                 <input type="text" name="nome" class="campoDigitavel"><br>
-            <label for="email">Email:</label>
+            <label id="email">Email:</label>
                 <input type="email" name="email" class="campoDigitavel"> <br>
-            <label for="tamanho">Escolha o seu chalé:</label>
+            <label id="escolha">Escolha o seu chalé:</label>
             <div class="tamanho" id="tamanho">
                 <input type="radio" name="tamanho" value="familia"> Família
                 <input type="radio" name="tamanho" value="casal"> Casal
             </div><br>
-            <label for="acompanhamento">Climatização:</label>
+            <label id="opcao">Climatização:</label>
             <select id="acompanhamento" name="acompanhamento" class="acompanhamento">
                 <option>Lareira</option>
                 <option>Ar Condicionado</option>
                 <option>Aquecedor</option>
             </select><br>
-            <label for="suiti">Suiti:</label>
+            <label id="quarto">Quarto com Suiti:</label>
             <div id="suiti" class="check">
                 <input type="checkbox" name="sim" value="Sim">Sim
                 <input type="checkbox" name="nao" value="Nao">Não
             </div>
-            <label for="data">Data da Reserva:</label>
-            <input id="data" type="date" name="dataentrega" class="dataentrega">
-            <label for="observacao">Obervações:</label>
+            <label id="reserva">Data da Reserva:</label>
+            <input id="data" type="date" name="datareserva" class="datareserva">
+            <label id="obs">Obervações:</label><br>
             <textarea id="observacao" class="observacao" name="observacao" rows="10" cols="30"></textarea>
             <input type="submit" class="botaoenviar">
         </form>
