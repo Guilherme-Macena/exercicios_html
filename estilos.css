@@ -10,18 +10,23 @@ body{
     align-items: center;
     justify-content: center;
 }
-
+span{
+    color: white;
+    font-size: 35px;
+}
 label{
     font-size: 20px;
     font-family: 'Merriweather', serif;
 }
 
 .titulo {
+    color: purple;
     text-align: center;
     margin: 20px;
     font-family: 'Merriweather', serif;
 }
 p{
+    color: black;
     font-size: 22px;
     margin: 20px;
     text-align: center;
