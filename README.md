@@ -17,7 +17,7 @@ estilização das tags ou até mesmo da página como um todo, seguindo as boas p
 <hr>
 
 <p><b>
-Exercícios sugeridos como atividades práticas da matéria de Fundamentos do Desenvolvimento de Softwares:
+Exercícios sugeridos como atividades práticas da matéria de Fundamentos do Desenvolvimento de Softwares</b>
 Tecnologias: HTML, CSS
 </p></b>
 
@@ -32,5 +32,13 @@ Tecnologias: HTML, CSS
       apresentados (radio, select, checkbox, text,
       date, email, textarea, submit). Utilize os
       atributos:
-      method=”get” action=”teste.jsp”--></dd>
+      method=”get” action=”teste.jsp”-->
+  </dd>
+    <dt><a href="https://github.com/Guilherme-Macena/exercicios_html/blob/master/exercicio_2.html">Exerciico 2:</a></dt>
+  <dd>
+      Crie uma tabela com duas colunas (“Gatos” e
+      “Cachorros”) e crie três linhas contendo fotos
+      dos animais em suas respectivas colunas.
+      Cada imagem deve ser um link
+  </dd>
 </dl>

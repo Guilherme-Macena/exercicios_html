@@ -4,22 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exercicio 2: Tabela Cães e Gatos</title>
+    <style>
+        body{
+            background-image: url("gatosecaes.jpg");
+            background-repeat: no-repeat;
+            margin-top: 180px;
+            margin-left: 260px;
+            align-items: center;
+            display: flex;
+            text-align: center;
+            font-size: 20px;
+        }
+        .titulo{
+            background-color: rgb(207, 173, 140);
+            font-size: 34px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        #gatos, #caes{
+            font-size: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
 </head>
 <body>
-    <table border="2">
+    <table class="tabela_caesegatos">
         <tr>
-            <td colspan="30">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td colspan="30" class="titulo" id="titulo">Tabela Cães e Gatos</td>
         </tr>
         <tr>
-            <td colspan="15">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-            <td colspan="15">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td colspan="15" class="titulo" id="gatos">GATOS</td>
+            <td colspan="15" class="titulo" id="caes">CACHORROS</td>
         </tr>
         <tr>
-            <td colspan="10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-            <td colspan="10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-            <td colspan="10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td colspan="15" id="gato1">
+                <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.univeritas.com%2Fnoticias%2Fcuidados-para-ter-com-seu-gato-de-estimacao&psig=AOvVaw1SBlqzdxEEo_DILElHBhkl&ust=1686010054257000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOjO84vrqv8CFQAAAAAdAAAAABAJ">
+                    <img src="imagens\gatos\gato1.jpg" alt="cuidados com seu gato" width="250px" height="150">
+                </a>
+            </td>
+            <td colspan="15" id="cachorro1">
+                <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.ferplast.com%2Fpt-br%2Fcaes-idosos-e-desidratacao%2F&psig=AOvVaw3K7artlzbLAoStHX6oepyA&ust=1686011170742000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNCdo6Dvqv8CFQAAAAAdAAAAABAd">
+                    <img src="imagens\caes\cachorro1.jpg" alt="idades avançadas e as condições relacionadas" width="250px" height="150">
+                </a>
+            </td>                    
         </tr>
+        <tr>
+            <td colspan="15" id="gato2">
+                <a href="https://chemitec.com.br/blog/toxoplasmose-em-gato/">
+                    <img src="imagens\gatos\gato2.jpg" alt="toxoplasmose em gato" width="250px" height="150">
+                </a>
+            </td>
+            <td colspan="15" id="cachorro2">
+                <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Fcaoeamig%2F&psig=AOvVaw3K7artlzbLAoStHX6oepyA&ust=1686011170742000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNCdo6Dvqv8CFQAAAAAdAAAAABA2">
+                    <img src="imagens\caes\cachorro2.jpg" alt="cão amigo" width="250px" height="150">
+                </a>
+            </td> 
+        </tr>
+        <tr>
+            <td colspan="15" id="gato3">
+                <a href="https://www.manzoni.com.br/blog/qual-e-a-melhor-racao-para-evitar-problemas-urinarios-em-gatos/">
+                    <img src="imagens\gatos\gato3.jpg" alt="melhor ração" width="250px" height="150">
+                </a>
+            </td>
+            <td colspan="15" id="cachorro3">
+                <a href="https://fisiocarepet.com.br/cachorro-de-guarda-quais-as-melhores-racas/">
+                    <img src="imagens\caes\cachorro3.jpg" alt="cachorro de guarda" width="250px" height="150">
+                </a>
+            </td> 
+        </tr>                    
     </table>
 </body>
 </html>
